@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Devansh — Animator &amp; Motion Designer</title>
+<meta name="description" content="Portfolio of Devansh, animator and motion designer. Selected work and case studies.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="#top">DEV<span>.</span></a>
+  <div class="navlinks">
+    <a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section id="top" class="hero">
+  <div class="wrap">
+    <p class="eyebrow">ANIMATOR &amp; MOTION DESIGNER</p>
+    <h1>Devansh makes<br>things move.</h1>
+    <p class="lead">Motion design, character animation and visual storytelling for brands, studios and independent films. Based in India, working worldwide.</p>
+    <div class="row">
+      <a class="btn btn-primary" href="#work">VIEW WORK</a>
+      <a class="btn btn-ghost" href="#contact">GET IN TOUCH</a>
+    </div>
+    <div class="hero-scroll">
+      <div><b>40+</b>projects delivered</div>
+      <div><b>6</b>years in motion</div>
+      <div><b>12</b>studio &amp; brand clients</div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="shead reveal">
+      <div><p class="eyebrow">SELECTED WORK</p><h2>Case studies</h2></div>
+      <p>A mix of brand films, title sequences, character animation and web experiences. Click any project for the full breakdown.</p>
+    </div>
+    <div class="work-grid" id="grid"></div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="shead reveal"><div><p class="eyebrow">ABOUT</p><h2>A bit about the process.</h2></div></div>
+    <div class="about-split">
+      <div class="reveal">
+        <p class="lead">I'm Devansh, a motion designer working across <b>2D character animation</b>, <b>brand storytelling</b> and <b>title design</b>. Every project starts the same way — with a script, a mood board and too many reference clips.</p>
+        <p class="lead" style="margin-top:18px">I care most about timing: the difference between a scene that reads as alive and one that just moves.</p>
+        <div class="skills">
+          <span>After Effects</span><span>Blender</span><span>Cinema 4D</span><span>Figma</span>
+          <span>Procreate</span><span>Premiere Pro</span><span>Character Animation</span><span>Motion Graphics</span>
+        </div>
+      </div>
+      <div class="reveal timeline">
+        <div class="row"><div class="yr">2026</div><div><div class="role">Freelance Motion Designer</div><div class="org">Independent — brand &amp; studio clients</div></div></div>
+        <div class="row"><div class="yr">2023</div><div><div class="role">Motion Designer</div><div class="org">In-house studio, animated title sequences</div></div></div>
+        <div class="row"><div class="yr">2021</div><div><div class="role">Junior Animator</div><div class="org">Ad agency, social &amp; campaign work</div></div></div>
+        <div class="row"><div class="yr">2020</div><div><div class="role">Started freelancing</div><div class="org">First client projects alongside coursework</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap reveal">
+    <h2>Have a project in mind?</h2>
+    <p class="lead">Open to freelance work, collaborations and full-time roles. Usually replies within a day or two.</p>
+    <div class="row">
+      <a class="btn btn-primary" href="mailto:hello@devansh.example">hello@devansh.example</a>
+      <a class="btn btn-ghost" href="#top">BACK TO TOP</a>
+    </div>
+    <div class="social">
+      <a href="#top">Instagram</a><a href="#top">Behance</a><a href="#top">LinkedIn</a><a href="#top">Vimeo</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Devansh</span>
+  <span>Portfolio — sample project details are illustrative</span>
+</footer>
+
+<div class="overlay" id="overlay">
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="pTitle">
+    <div class="top">
+      <h2 id="pTitle"></h2>
+      <button class="close" id="closeBtn" aria-label="Close case study">✕</button>
+    </div>
+    <div class="meta">
+      <div><div class="k">ROLE</div><div id="pRole"></div></div>
+      <div><div class="k">TOOLS</div><div id="pTools"></div></div>
+      <div><div class="k">YEAR</div><div id="pYear"></div></div>
+      <div><div class="k">CLIENT</div><div id="pClient"></div></div>
+    </div>
+    <div class="thumb-lg" id="pThumb"></div>
+    <!-- "VIEW LIVE DEMO" only appears here when a project's demoUrl is set in script.js -->
+    <a class="btn btn-primary demo-btn" id="pDemo" href="#" target="_blank" rel="noopener">VIEW LIVE DEMO ↗</a>
+    <div class="cs"><h4>THE CHALLENGE</h4><p id="pChallenge"></p></div>
+    <div class="cs"><h4>THE APPROACH</h4><p id="pApproach"></p></div>
+    <div class="cs"><h4>THE RESULT</h4><p id="pResult"></p></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
